@@ -6,7 +6,7 @@ The code is intentionally organized like a real engineering project: modular pac
 
 ## Why this repository exists
 
-Most interview/demo code focuses on isolated notebooks. This project demonstrates:
+This project demonstrates:
 
 - End-to-end system design across research domains
 - Production-minded software engineering (clear boundaries, testability, reproducibility)
