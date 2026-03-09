@@ -1,4 +1,4 @@
-# Quantitative Engineering Showcase (Graduate Application Edition)
+# Quantitative Engineering Showcase 
 
 This repository is a clean, from-scratch, production-style showcase of three quant research systems aligned with my full-time work at **Ubiquant Investment Co., Ltd (2022–present)**.
 
