@@ -1,0 +1,6 @@
+seed: 42
+total_qty: 10000
+horizon_steps: 78
+adv: 5000000
+train_episodes: 60
+eval_episodes: 200

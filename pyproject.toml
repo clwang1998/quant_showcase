@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant-showcase"
+version = "0.1.0"
+description = "Graduate application showcase for quantitative engineering"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Chenglong Wang"}]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0",
+]
+ml = [
+  "scikit-learn>=1.3",
+  "lightgbm>=4.0",
+  "xgboost>=1.7",
+]
+
+torch = [
+  "torch>=2.0",
+  "torch-geometric>=2.3",
+]
+
+[project.scripts]
+quant-showcase = "quant_showcase.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

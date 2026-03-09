@@ -1,0 +1,7 @@
+seed: 42
+n_stocks: 400
+n_factors: 220
+lookback_days: 120
+top_k: 30
+risk_aversion: 3.0
+transaction_cost_penalty: 0.0008

@@ -1,0 +1,10 @@
+seed: 42
+s0: 100.0
+k: 100.0
+t: 1.0
+r: 0.03
+q: 0.0
+sigma: 0.25
+n_steps: 252
+n_paths: 80000
+option_type: call
